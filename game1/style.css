@@ -1,36 +1,43 @@
+/* Sets the background color to dark blue and removes default margin */
 body {
     background-color: #010165;
     margin: 0px;
-  }
+}
 
+/* Defines the container width to fit its content and adds padding */
 #container {
-    
     width: fit-content;
     padding: 5vh;
 }
 
-.header{
+/* Styles the header with light blue background and center alignment */
+.header {
     background-color: #00ffff;
     text-align: center;
 }
 
-.title-row{
+/* Centers and adds margin for title row */
+.title-row {
     margin-top: 42px;
     margin-bottom: 21px;
     text-align: center;
 }
-.instruction-title{
+
+/* Styles the instruction title with inline display, font size, color, and font family */
+.instruction-title {
     display: inline;
     font-size: 18px;
     color: #00ffff;
     font-family: 'Work Sans';
 }
 
-.instructions-row{
+/* Centers and sets width for instruction rows */
+.instructions-row {
     margin: 0 auto;
     width: 400px;
 }
 
+/* Adds padding, font size, color, and font family for instruction numbers */
 .instructions-number {
     padding-right: 25px;
     font-family: 'Work Sans';
@@ -38,22 +45,26 @@ body {
     color: #00ffff;
 }
 
+/* Adds padding, font size, color, and font family for instruction text */
 .instructions-text {
     padding: 10px; 
-    font-family:‘Work Sans’;
-    font-size:14px;
-    color:#ffffff;
+    font-family: 'Work Sans'; 
+    font-size: 14px; 
+    color: #ffffff;
 }
 
-.door-row{
-    text-align:center;
+/* Centers the door row text */
+.door-row {
+    text-align: center;
 }
 
-.door-frame{
+/* Adds cursor pointer to door frames */
+.door-frame {
     cursor: pointer;
     padding: 10px;
 }
 
+/* Styles the start row with background color, font size, text alignment, and cursor pointer */
 .start-row {
     margin: auto;
     width: 120px; 
@@ -68,7 +79,7 @@ body {
     cursor: pointer;
 }
 
-
+/* Styles the footer with fixed position at bottom, background color, padding, and center alignment */
 footer {
     position: fixed;
     bottom: 0;
