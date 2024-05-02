@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  
+  .box {
+    border-spacing: 0px;
+    border: 1px solid #3c3c3c;
+    background-color: #e1e1e2;
+    margin: auto;
+  }
+  
+  .piece {
+    border-spacing: 0px;
+    border: 1px solid;
+  }
+
+  body {
+    background-image: url('oip.jpg'); /* Use the relative path to your image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+footer {
+    font-size: 25px;
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+    position: fixed; /* Keeps the footer at the bottom */
+    bottom: 0; /* Positions the footer at the bottom of the page */
+    width: 100%; /* Takes up the full width of the page */
+    padding: 10px; /* Adds padding for the footer */
+    background-color: #e1e1e2; /* Replace 'yourColorCode' with your desired color */
+}
+
+  footer button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center;
+  }
+  
+  footer button:hover {
+    background-color: #45a049;
+  }
+
+  span {
+    font-family: 'Arial', sans-serif; /* Choose your desired font */
+    color: #eb1b0c; /* Choose your desired text color */
+    font-size: 100px; /* Choose your desired font size */
+    margin-bottom: 10px; /* Add some margin at the bottom */
+    display: block; /* Display the span as a block element */
+    text-align: center; /* Center-align the text */
+}

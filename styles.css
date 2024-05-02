@@ -1,0 +1,68 @@
+/* Styles for Body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.png");
+    background-size: cover;
+}
+
+/* Styles for Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for Heading 1 */
+h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for Navigation List */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* Styles for Navigation List Item */
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Styles for Navigation Links */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 10px 0;
+}
+
+/* Styles for Navigation List Item Image */
+nav ul li img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+/* Hover Styles for Navigation Links */
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Styles for Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
