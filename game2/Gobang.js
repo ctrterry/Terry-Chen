@@ -8,7 +8,7 @@ var ScreenWidth = {
     ScreenWidth.containerWidth = ScreenWidth.documentWidth * 0.8;
     ScreenWidth.cellWidth = ScreenWidth.containerWidth * 0.05;
   }
-  //常量
+  //Variable
   var reg = /\d{1,2}/g;
   var white = []; 
   var black = []; 
@@ -131,7 +131,6 @@ var ScreenWidth = {
     };
 }
   
-  // 提示走黑还是走白
   function tipsGo(tempKey) {
     if (tempKey) {
       return "Computer:";
