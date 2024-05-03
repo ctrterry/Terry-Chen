@@ -1,3 +1,6 @@
+    //Program Name: Game of 3 "Catch the bugs"
+    //Author: Tianren Chen or (Terry Chen)
+    //Date: Apr 28,2024. 
 const screens = document.querySelectorAll('.screen');
 const choose_insect_btns = document.querySelectorAll('.choose-insect-btn');
 const start_btn = document.getElementById('start-btn')
